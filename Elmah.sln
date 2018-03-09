@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elmah", "src\Elmah\Elmah.csproj", "{C92DC151-A0BA-4A5E-A20E-620EC9C06AFF}"
 EndProject
@@ -11,7 +11,7 @@ EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Demo", "http://localhost:51296", "{7CC1005D-2D8F-4B8A-9E82-DE8F03CE4861}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
 		ProjectReferences = "{c92dc151-a0ba-4a5e-a20e-620ec9c06aff}|Elmah.dll;{2990960b-2cb4-484c-819a-ef186b8fcac5}|Elmah.AspNet.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_51296"
 		Debug.AspNetCompiler.PhysicalPath = "samples\Demo\"
@@ -107,5 +107,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E19369B-1493-4123-88A4-59667D64D57A}
 	EndGlobalSection
 EndGlobal
